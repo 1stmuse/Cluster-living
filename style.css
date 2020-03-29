@@ -1,0 +1,21 @@
+
+
+.header{
+    display: flex;
+    width: 90%;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+.logo_div img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+}
+
+.nav_links ul li{
+    display: inline;
+    color: #300245;
+    font-weight: bold;
+    padding-left: 2em;
+}
