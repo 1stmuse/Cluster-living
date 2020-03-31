@@ -55,7 +55,7 @@
 .sec_1{
     display: flex;
     width: 80%;
-    margin: 80px auto;
+    margin: 20px auto;
 }
 .sec1-div-left{
     margin-left: 2%;
@@ -89,11 +89,12 @@
 /* SECTION 2 */
 .sec_2{
     display: flex;
-    width: 65%;
-    margin: 200px auto;
+    justify-content: space-between;
+    width: 70%;
+    margin: 100px auto 80px auto;
     border-radius: 20px;
     background: rgba(48, 2, 69, 0.2);
-    padding: 40px 30px;
+    padding: 20px 30px;
 }
 .sec2-div-left{
     width: 50%;
@@ -110,15 +111,19 @@
     color: #212353;
     font-family:  Helvetica;
     font-style: normal;
-    line-height: 130%;
+    line-height: 110%;
+    text-align: center;
 }
 .sec2-div-right p{
     text-align: center;
+    margin: 0px;
+    font-size: 0.9em;
 }
 
 /* center */
 .why-cluster{
     text-align: center;
+    margin-bottom: 40px;
 }
 .why-cluster h2{
     color: #300245;
