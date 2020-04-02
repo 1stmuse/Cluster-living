@@ -5,7 +5,7 @@
     font-weight: 500;
 }
 body{
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     width: 100%;
 }
 
@@ -162,6 +162,7 @@ body{
 .sec4{
     margin-top: 10%;
     margin-bottom: 5%;
+    position: relative;
 }
 .sec4 > div{
     width: 65%;
@@ -176,10 +177,14 @@ body{
     color: #ffffff;
 }
 
+.slider-label{
+    margin-top: 30%;
+}
 .carousel-container{
-    width: 50%;
-    height: 200px;
-    margin: 10px auto 10px 10%;
+    position: absolute;
+    width: 57%;
+    left: 30%;
+    overflow: hidden;
 }
 
 .carousel-slider{
