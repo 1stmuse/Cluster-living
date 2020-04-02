@@ -4,6 +4,10 @@
     font-style: normal;
     font-weight: 500;
 }
+body{
+    overflow-x: hidden;
+    width: 100%;
+}
 
 /* HEADER */
 .header{
@@ -155,16 +159,20 @@
     border-radius: 15.0064px;
 }
 
-
 .sec4{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.sec4 > div{
     width: 65%;
     margin: 40px auto;
     background-color: #300245;
+    /* overflow: hidden; */
     padding: 10px 15px;
     border-radius: 3em;
 }
 
-.sec4 > h3{
+.sec4 > div h3{
     color: #ffffff;
 }
 
@@ -182,6 +190,8 @@
 }
 
 .carousel-slider div  {
+    display: flex;
+    flex-direction: column;
     width: 400px;
     height: 200px;
     margin-right: 30px;
@@ -190,8 +200,98 @@
     border-radius: 1.5em;
 }
 
+.carousel-slider div h5{
+    padding: 0px 15px;
+}
+
 .carousel-slider div p{
     width: 300px;
     padding: 0px 15px;
-    border-radius: 2em;
+}
+footer > div{
+    width: 75%;
+    margin: 30px auto 0px auto;
+}
+
+.footer_top{
+    display: flex;
+    justify-content: space-around;
+}
+
+.waiting {
+    /* width: 450px; */
+    margin-right: 80px;
+    padding: 0px 15px;
+}
+
+.learn{
+    margin-left: 50px;
+    margin-top: 30px;
+    padding: 10px 15px;
+}
+.learn a{
+    margin-left: 20px;
+    border-radius: 1em;
+    background-color: #300245;
+    color: #ffffff;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.learn a:last-child{
+    background-color: #ffffff;
+    border-radius: 10px;
+    /* box-shadow: 0px 5px 10px 0px rgb(236, 222, 222); */
+    box-shadow: 0px 3.7516px 1.7516px 1px rgba(75, 93, 104, 0.1);
+    text-decoration: none;
+    color: #300245;
+}
+
+.footer_mid{
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 2%; */
+}
+address{
+    margin-top: 0px;
+}
+.footer_mid div{
+    width: 20%;
+    text-align: center;
+}
+.footer_mid div ul{
+    list-style: none;
+    margin-top: 9%;
+}
+.footer_mid div ul li{
+    margin-bottom: 5px;
+}
+.footer_mid div ul li a{
+    text-decoration: none;
+    color: black;
+}
+.footer_mid >div:not(:first-child){
+    margin-top: 10%;
+    list-style: none;
+}
+.footer_mid >div:first-child{
+    margin-right: 10%;
+}
+
+.footer_mid div:first-child img{
+    margin-bottom: 0;
+}
+.address{
+    display: block;
+}
+.footer_mid div.icons{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.footer_bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_bottom span{
+    display: block;
 }
