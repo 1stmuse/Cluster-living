@@ -263,14 +263,14 @@ footer > div{
 
 .footer_mid{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
 }
 address{
     margin-top: 0px;
 }
 .footer_mid div{
-    width: 20%;
+    width: 150px;
     flex-shrink: 0;
     text-align: center;
 }
