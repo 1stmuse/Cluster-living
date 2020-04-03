@@ -185,11 +185,9 @@ body{
 }
 
 .carousel-container{
-    /* position: absolute; */
     width: 75%;
     margin-left: 30%;
     border: 1px solid burlywood;
-    /* overflow: hidden; */
 }
 
 .carousel-slider{
@@ -267,13 +265,13 @@ footer > div{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* margin-top: 2%; */
 }
 address{
     margin-top: 0px;
 }
 .footer_mid div{
     width: 20%;
+    flex-shrink: 0;
     text-align: center;
 }
 .footer_mid div ul{
