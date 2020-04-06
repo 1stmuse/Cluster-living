@@ -13,6 +13,7 @@ p{
 }
 body{
     width: 100%;
+    overflow-x: hidden;
 }
 
 /* HEADER */
@@ -146,25 +147,118 @@ body{
 }
 
 /* SECTION 3 */
-.sec_3{
-    display: flex;
+.sec3 {
+    height: fit-content;
+    padding: 30px 0 10px 0;
 }
-.sec_3_flex{
+.sec3 .container {
+    margin: 0 100px 0 100px;    
+    width: auto;
+    height: fit-content;
+    align-content: center;
+    justify-content: center;
+    display: -webkit-box;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.sec3 .container .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+    height: fit-content;
     width: 50%;
+    min-width: fit-content ;
+    background-position: center;
+    margin-bottom: 40px;
+    position: relative;
 }
-.sec_3_flex_left{
-    width: 30%;
+.sec3 .container .box_inner {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
-.sec_3_flex_left img{
+.sec3 .container .weirdShape {
+    border-radius: 50px;
+    background-color: transparent;
+    padding: 28px 10px 30px 150px;
+    height: 260px;
+    position: relative;
+    z-index: 1;
+    text-align: left;
+    overflow: hidden;    
+}
+.sec3 .weirdShape::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
+    height: 100%;
+    background-color: #EAE6EC;
+    z-index: -1;
+    border-radius: 50px 50px 50px 60px;
+    transform: skewX(-10deg);
+    transform-origin: 100% 100%;
 }
-.sec_3_flex_right{
-    width: 300px;
-    background: rgba(112, 99, 117, 0.2);
-    border-radius: 15.0064px;
+.sec3 .content h3 {
+    margin-bottom: 30px;
 }
-
+.sec3 .content p {
+    margin-bottom: 30px;
+}
+.sec3 .content a {
+    position: absolute;
+    bottom: 40px;
+}
+.sec3 .weirdShape .content {
+    width: 250px;
+    height: inherit;
+    padding-right: 40px;
+    max-width: 250px;
+}
+.sec3 .container .box .illustration {
+    position: absolute;
+    z-index: 2;
+}
+.sec3 .container .box .illustration.home {
+    left: -230px;
+}
+.sec3 .container .box .illustration.plans {
+left: -45px;
+}
+.sec3 .container .box .illustration.community {
+left: -110px;
+}
+.sec3 .container .box .illustration.services {
+ left: -75px;
+}
+.elps {
+    position: absolute;
+    z-index: 0;
+}
+.elps.a {
+    top: -20px;
+    right: 25px;
+}
+.elps.d {
+    top: 16px;
+    left: 20px;
+}
+ @media only screen and (max-width: 1350px) {
+    .sec3 .container {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        padding: 0;
+        margin: 0;
+        width: fit-content;
+        height: 350px;
+        overflow-x: scroll;
+    }
+ }
 .sec4{
     margin-top: 10%;
     margin-bottom: 5%;
