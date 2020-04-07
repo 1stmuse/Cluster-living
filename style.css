@@ -167,7 +167,6 @@ body{
     border-radius: 50px;
     background-color: transparent;
     padding: 28px 10px 30px 150px;
-    height: 260px;
     position: relative;
     z-index: 1;
     text-align: left;
@@ -207,7 +206,8 @@ body{
     z-index: 2;
 }
 .sec3 .container .box .illustration.home {
-    left: -230px;
+    width: 300px;
+    left: -180px;
 }
 .sec3 .container .box .illustration.plans {
 left: -45px;
