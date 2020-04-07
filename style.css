@@ -42,7 +42,7 @@ body{
     padding-left: 2em;
     list-style: none;
 }
-.nav_links ul li a{
+.nav_links a{
     text-decoration: none;
     color: #2a043b;
     font-weight: bold;
@@ -53,7 +53,7 @@ body{
     border-radius: 19px;
 }
 
-.nav_links ul li:last-child a{
+.nav_links a{
     padding: 8px 25px;
     background-color: #ffffff;
     border-radius: 10px;
