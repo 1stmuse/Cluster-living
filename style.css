@@ -170,9 +170,14 @@ body{
     position: relative;
     z-index: 1;
     text-align: left;
-    overflow: hidden;    
+    overflow: hidden;   
+    
+    transform: skewX(-10deg);
+    transform-origin: 100% 100%;
+    background-color: #EAE6EC;
+    border-radius: 50px 50px 50px 60px;
 }
-.sec3 .weirdShape::after {
+/* .sec3 .weirdShape::after {
     content: "";
     position: absolute;
     top: 0;
@@ -184,22 +189,23 @@ body{
     border-radius: 50px 50px 50px 60px;
     transform: skewX(-10deg);
     transform-origin: 100% 100%;
-}
+} */
 .sec3 .content h3 {
     margin-bottom: 30px;
 }
-.sec3 .content p {
+/* .sec3 .content p {
     margin-bottom: 30px;
 }
 .sec3 .content a {
     position: absolute;
     bottom: 40px;
-}
+} */
 .sec3 .weirdShape .content {
     width: 250px;
     height: inherit;
     padding-right: 40px;
     max-width: 250px;
+    transform: skewX(10deg);
 }
 .sec3 .container .box .illustration {
     position: absolute;
@@ -229,6 +235,18 @@ left: -110px;
 .elps.d {
     top: 16px;
     left: 20px;
+}
+
+@media screen and (max-width:1200px){
+    .media-trap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .sec3 .container .box_inner{
+        position: inherit;
+    }
 }
  
 /* SECTION 4 */
