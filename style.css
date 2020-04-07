@@ -55,6 +55,7 @@ body{
 }
 .sec1-div-left{
     margin-left: 2%;
+    margin-top: 30px;
     width: 40%;
 }
 .sec_1 h1{
@@ -62,24 +63,29 @@ body{
     font-family: Helvetica;
     font-style: normal;
     line-height: 110%;
+    outline: none;
     width: 400px;
     color: #300245;
+    margin-bottom: 30px;
 }
 .sec_1 button{
     margin-top: 50px;
-    padding: 10px 25px;
-    border-radius: 19px;
+    padding: 5px 25px;
+    border-radius: 12px;
     color: #ffffff;
+    width: 200px;
     background-color: #300245;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .sec1-div-right{
     width: 60%;
     margin-top: 30px;
+    height: 300px;
     z-index: -1;
 }
 .sec1-div-right img{
     width: 100%;
+    height: 300px;
 }
 
 /* SECTION 2 */
@@ -141,29 +147,34 @@ body{
     height: fit-content;
     padding: 30px 0 10px 0;
 }
-.sec3 .container { 
+.sec3 .cont { 
     width: auto;
 }
-.sec3 .container .box {
+.media-trap{
+    display: flex;
+    justify-content: space-between;
+}
+.sec3 .cont .box {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     flex-shrink: 0;
     height: fit-content;
-    width: 50%;
+    width: 40%;
     min-width: fit-content ;
     background-position: center;
     margin-bottom: 40px;
     position: relative;
 }
-.sec3 .container .box_inner {
+.sec3 .cont .box_inner {
     position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: 30%;
 }
-.sec3 .container .weirdShape {
+.sec3 .cont .weirdShape {
     border-radius: 50px;
     background-color: transparent;
     padding: 28px 10px 30px 150px;
@@ -207,21 +218,21 @@ body{
     max-width: 250px;
     transform: skewX(10deg);
 }
-.sec3 .container .box .illustration {
+.sec3 .cont .box .illustration {
     position: absolute;
     z-index: 2;
 }
-.sec3 .container .box .illustration.home {
-    width: 300px;
-    left: -180px;
+.sec3 .cont .box .illustration.home {
+    width: 250px;
+    left: -140px;
 }
-.sec3 .container .box .illustration.plans {
+.sec3 .cont .box .illustration.plans {
 left: -45px;
 }
-.sec3 .container .box .illustration.community {
+.sec3 .cont .box .illustration.community {
 left: -110px;
 }
-.sec3 .container .box .illustration.services {
+.sec3 .cont .box .illustration.services {
  left: -75px;
 }
 .elps {
@@ -244,8 +255,32 @@ left: -110px;
         align-items: center;
         justify-content: center;
     }
-    .sec3 .container .box_inner{
+    .sec3 .cont .box_inner{
         position: inherit;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0%;
+    }
+    .sec3 .cont .box{
+        display: block;
+    }
+    .sec3 .cont .box .illustration{
+        width: 300px;
+        position: unset;
+    }
+    .sec3 .cont .box .illustration.home{
+        margin-right: 30px;
+        width: 350px;
+    }
+    .sec3 .cont .box .illustration.plans {
+        /* width: 300px; */
+        order: 2;
+        margin-left: 50px;
+    }
+    .sec3 .cont .box .illustration.services{
+        order: 2;
+        margin-left: 50px;
+        /* width: 300px; */
     }
 }
  
