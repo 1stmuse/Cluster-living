@@ -151,16 +151,8 @@ body{
     height: fit-content;
     padding: 30px 0 10px 0;
 }
-.sec3 .container {
-    margin: 0 100px 0 100px;    
+.sec3 .container { 
     width: auto;
-    height: fit-content;
-    align-content: center;
-    justify-content: center;
-    display: -webkit-box;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
 .sec3 .container .box {
     display: flex;
@@ -248,17 +240,7 @@ left: -110px;
     top: 16px;
     left: 20px;
 }
- @media only screen and (max-width: 1350px) {
-    .sec3 .container {
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        padding: 0;
-        margin: 0;
-        width: fit-content;
-        height: 350px;
-        overflow-x: scroll;
-    }
- }
+ 
 .sec4{
     margin-top: 10%;
     margin-bottom: 5%;
