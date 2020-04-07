@@ -231,3 +231,142 @@ left: -110px;
     left: 20px;
 }
  
+/* SECTION 4 */
+
+.sec4{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    position: relative;
+    overflow: hidden;
+}
+.sec4 > div{
+    width: 65%;
+    margin: 40px auto;
+    background-color: #300245;
+    /* overflow: hidden; */
+    padding: 10px 15px;
+    border-radius: 3em;
+}
+
+.sec4 > div h3{
+    color: #ffffff;
+}
+
+.carousel-container{
+    width: 75%;
+    margin-left: 30%;
+    border: 1px solid burlywood;
+}
+
+.carousel-slider{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.carousel-slider div  {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+    margin-right: 30px;
+    color: black;
+    background-color: #ffffff;
+    border-radius: 1.5em;
+}
+
+.carousel-slider div h5{
+    padding: 0px 15px;
+}
+
+.carousel-slider div p{
+    width: 300px;
+    padding: 0px 15px;
+}
+footer > div{
+    width: 75%;
+    margin: 30px auto 0px auto;
+}
+
+.footer_top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.waiting {
+    width: 40%;
+    margin-right: auto;
+    padding: 0px 15px;
+}
+
+.learn{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    padding: 10px 15px;
+}
+.learn a{
+    width: 150px;
+    font-size: 0.9rem;
+    border-radius: 1em;
+    background-color: #300245;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.learn a:last-child{
+    margin-left: 2em;
+}
+
+.footer_mid{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+address{
+    margin-top: 0px;
+}
+.footer_mid div{
+    width: 150px;
+    flex-shrink: 0;
+    text-align: center;
+}
+.footer_mid div ul{
+    list-style: none;
+    margin-top: 9%;
+}
+.footer_mid div ul li{
+    margin-bottom: 5px;
+}
+.footer_mid div ul li a{
+    text-decoration: none;
+    color: black;
+}
+.footer_mid >div:not(:first-child){
+    margin-top: 10%;
+    list-style: none;
+}
+.footer_mid >div:first-child{
+    margin-right: 10%;
+}
+
+.footer_mid div:first-child img{
+    margin-bottom: 0;
+}
+.address{
+    display: block;
+}
+.footer_mid div.icons{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.footer_bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_bottom span{
+    display: block;
+}
