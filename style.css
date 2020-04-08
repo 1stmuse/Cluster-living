@@ -120,6 +120,7 @@ body{
     line-height: 110%;
     font-size: 2em;
     text-align: center;
+    margin-bottom: 30px;
 }
 .sec2-div-right p{
     text-align: center;
@@ -248,7 +249,108 @@ left: -110px;
     left: 20px;
 }
 
+@media screen  and (max-width:780px){
+    /* .sec_1{
+        position: relative !important;
+        width: 80%;
+        margin: 20px auto;
+    }
+    .sec1-div-left{
+        margin-left: 2%;
+        margin-top: 30px;
+        width: 100% !important;
+    }
+    .sec1-div-right{
+        position: absolute;
+        top: 20%;
+    } */
+
+    .waiting{
+        width: 50% !important;
+    }
+    .learn{
+        display: flex !important;
+        justify-content: space-between;
+        flex-direction: column !important;
+        width: 300px !important;
+    }
+}
+
+@media screen and (max-width:850px){
+    
+    .md{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .sec1-div-left{
+        width: 50%;
+    }
+    .sec1-div-right{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec1-div-right img{
+        width: 300px;
+        height: 250px;
+    }
+    .sec_2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec2-div-left{
+        width: 40%;
+    }
+    .sec2-div-right{
+        width: 80%;
+    }
+    .sec2-div-right h1{
+        margin-bottom: 30px;
+    }
+    footer{
+        background-color: #300245;
+        color: white !important;
+    }
+    .footer_mid{
+        display: grid !important;
+        grid-template-areas: 'log cont '
+                            'ten socail' !important;
+        margin-top: 10%;
+    }
+    .f-mid{
+        width: 200px !important;
+        text-align: center !important;
+    }
+    .log{
+        grid-area: log;
+        background-color: tomato;
+    }
+    .conn{
+        grid-area: cont;
+    }
+    .ten{
+        grid-area: ten;
+    }
+    .soc{
+        grid-area: socail;
+    }
+    .conn ul li a, .ten ul li a{
+        color: white !important;
+    }
+    
+}
+
 @media screen and (max-width:950px){
+    .media-trap{
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-around !important;
+    }
     .box_inner{
         display: flex !important;
         flex-direction: column !important;
@@ -277,16 +379,29 @@ left: -110px;
         text-align: center;
         transform: none !important;
         margin-right: 0 !important;
-        margin-bottom: 20px;
+        margin-bottom: 20px !important;
     }
     .sec3 .cont .box .illustration{
         width: 300px !important;
     }
+    .sec3 .cont .box .illustration.home{
+        margin-right: 0px !important;
+        height: 229px !important;
+    }
     .sec3 .cont .box .illustration.plans {
+        margin-left: 0px !important;
         order: 1;
+    }
+    .sec3 .cont .box .illustration.community{
+        height: 223px !important;
     }
     .sec3 .cont .box .illustration.services{
         order: 1;
+        margin-left: 0px !important;
+    }
+    div.learn{
+        margin-left: 0px !important;
+        width: 350px;
     }
 }
 
@@ -420,6 +535,7 @@ footer > div{
     display: grid;
     grid-template-areas: 'log cont ten socail';
     margin-top: 10%;
+    margin-bottom: 70px;
 }
 .f-mid{
     width: 150px;
@@ -442,6 +558,9 @@ footer > div{
     list-style: none;
     padding: 0;
     margin-bottom: 15px;
+}
+.conn ul li a, .ten ul li a{
+    color: black;
 }
 address{
     margin-top: 0px;
