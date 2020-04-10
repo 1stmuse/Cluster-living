@@ -206,13 +206,6 @@ body{
 .sec3 .content h3 {
     margin-bottom: 30px;
 }
-/* .sec3 .content p {
-    margin-bottom: 30px;
-}
-.sec3 .content a {
-    position: absolute;
-    bottom: 40px;
-} */
 .sec3 .weirdShape .content {
     width: 250px;
     height: inherit;
@@ -249,33 +242,27 @@ left: -110px;
     left: 20px;
 }
 
-@media screen  and (max-width:780px){
-    /* .sec_1{
-        position: relative !important;
-        width: 80%;
-        margin: 20px auto;
+
+@media screen and (max-width:700px){
+    .sec1-div-left h1{
+        width: 320px !important;
     }
-    .sec1-div-left{
-        margin-left: 2%;
-        margin-top: 30px;
-        width: 100% !important;
+    .sec1-div-right img{
+        width: 250px !important;
+        height: 200px !important;
+        margin-top: 50px !important;
     }
-    .sec1-div-right{
-        position: absolute;
-        top: 20%;
-    } */
     .why-cluster p{
         text-align: center;
         width: 70%;
         margin: 0 auto;
     }
-    .weirdShape {
+     .weirdShape {
         width: 300px !important;
     }
     .weirdShape .content{
         width: 300px !important;
     }
-
     .waiting{
         width: 50% !important;
     }
@@ -285,6 +272,11 @@ left: -110px;
         flex-direction: column !important;
         width: 300px !important;
     }
+    /* .rights{
+        display: block;
+    } */
+
+    
 }
 
 @media screen and (max-width:850px){
@@ -337,7 +329,7 @@ left: -110px;
         margin-top: 10%;
     }
     .f-mid{
-        width: 200px !important;
+        width: 150px !important;
         text-align: center !important;
     }
     .log{
@@ -346,15 +338,23 @@ left: -110px;
     }
     .conn{
         grid-area: cont;
+        width: 150px !important;
     }
     .ten{
         grid-area: ten;
+        width: 150px !important;
     }
     .soc{
         grid-area: socail;
     }
     .conn ul li a, .ten ul li a{
         color: white !important;
+    }
+    .rights{
+        /* display: inline !important; */
+    }
+    .reg{
+        display: block !important;
     }
     
 }
@@ -557,7 +557,6 @@ footer > div{
 }
 .log{
     grid-area: log;
-    background-color: tomato;
 }
 .conn{
     grid-area: cont;
@@ -567,6 +566,9 @@ footer > div{
 }
 .soc{
     grid-area: socail;
+}
+.conn ul, .ten ul{
+    padding: 0;
 }
 .conn ul li, .ten ul li{
     list-style: none;
