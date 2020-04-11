@@ -13,7 +13,7 @@ p{
 }
 body{
     width: 100%;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 
 /* HEADER */
@@ -251,7 +251,6 @@ left: -110px;
         width: 250px !important;
         height: 200px !important;
         margin-top: 100px !important;
-        border: 1px solid black;
     }
 
     #sec_2{
@@ -334,10 +333,11 @@ left: -110px;
         align-items: center;
     }
     .sec2-div-left{
-        width: 40%;
+        width: 80%;
     }
     .sec2-div-right{
         width: 80%;
+        margin-bottom: 30px;
     }
     .sec2-div-right h1{
         margin-bottom: 30px;
