@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <script src="script.js"></script>
     <title>Cluster</title>
@@ -31,7 +32,8 @@
     </section>
 	<main>
 		<section class="sec_1">
-			<div class="sec1-div-left">
+			<div class="sec1-div-left" data-aos-easing="linear"
+                data-aos-duration="1000" data-aos="zoom-out-up">
 				<h1>A new way of <span>living together</span></h1>
 				<p>sharing is the future or urban living. At Cluster, we are
 					creating ways to making living in the big city exciting, comfortable
@@ -39,9 +41,11 @@
 				</p>
 				<button>Learn more</button>
 			</div>
-			<div class="sec1-div-right"><img src="./images/topimg.png" alt=""></div>
+			<div class="sec1-div-right" data-aos-easing="linear"
+            data-aos-duration="1000" data-aos="fade-left"><img src="./images/topimg.png" alt=""></div>
 		</section>
-		<section class="sec_2" id="sec_2">
+		<section class="sec_2" id="sec_2" data-aos="zoom-in-up" data-aos-easing="linear"
+        data-aos-duration="1500">
 			<div class="sec2-div-left">
 				<img src="./images/girlOnSofa.png" alt="">
 			</div>
@@ -57,7 +61,7 @@
 			</div>
 		</section>
 		<section class="sec3">
-			<div class="why-cluster">
+			<div class="why-cluster" data-aos="fade-left" data-aos-duration="2000">
 				<h2>Why Cluster?</h2>
 				<p>City living doesn't have to be expensive. We are
 					providing value added tenancy by helping you cut costs
@@ -66,7 +70,7 @@
 			</div>			
 			<div class="cont">
 				<div class="media-trap md meddy">
-					<div class="box">
+					<div class="box" data-aos="zoom-out-up" data-aos-duration="700">
 						<div class="box_inner">					
 							<img src="./images/sec3home.svg" alt="" class="illustration home">
 							<div class="weirdShape">		
@@ -79,7 +83,7 @@
 							</div>				
 						</div>
 					</div>			
-					<div class="box">
+					<div class="box" data-aos="zoom-out-down" data-aos-duration="2000">
 						<div class="box_inner" style="margin-left: 0px;">
 							<img src="./images/sec3plan.svg" alt="" class="illustration plans">
 							<div class="weirdShape">						
@@ -95,7 +99,7 @@
 					</div>	
 				</div>
 				<div class="media-trap md seddy">
-					<div class="box">
+					<div class="box" data-aos="zoom-out" data-aos-duration="1000">
 						<div class="box_inner">
 							<img src="./images/sec3community.svg" alt="" class="illustration community">
 							<div class="weirdShape">	
@@ -108,7 +112,7 @@
 							</div>				
 						</div>
 					</div>		
-					<div class="box">
+					<div class="box" data-aos="zoom-in" data-aos-duration="1200">
 						<div class="box_inner" style="margin-left: 0px;">
 							<img src="./images/sec3services.svg" alt="" class="illustration services">
 							<div class="weirdShape">			
@@ -232,6 +236,10 @@
 		
     </main>
     <!-- <script src="./script.js"></script> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init()
+    </script>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
