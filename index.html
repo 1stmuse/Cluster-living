@@ -4,6 +4,9 @@
 <head>
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -21,9 +24,9 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav w-100 pl-5">
-              <a class="nav-item nav-link my-btn pr-0" href="#">About <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link my-btn pr-0" href="https://link.medium.com/HsUx7mUVk5">About <span class="sr-only">(current)</span></a>
               <a class="nav-item nav-link my-btn pl-0" href="#">Contact Us</a>
-              <a class="nav-item nav-link my-btn pr-0" href="#">Blog</a>
+              <a class="nav-item nav-link my-btn pr-0" href="https://link.medium.com/HsUx7mUVk5">Blog</a>
               <a class="nav-item nav-link my-btn pl-0 pr-0" href="#">FAQs</a>
               <a class="nav-item nav-link my-btns ml-md-auto ml-lg-auto mr-4 " href="#" tabindex="-1" aria-disabled="true">Early Access --></a>
             </div>
@@ -131,9 +134,9 @@
 		<section class="sec4">
             <div>
                 <h3>Frequently Asked Questions</h3>
-                <div class="carousel-container">
-                    <div class="carousel-slider">
-                        <div>
+                <div class="carousel-container swiper-container">
+                    <div class="carousel-slider swiper-wrapper">
+                        <div class="swiper-slide">
                             <h5>How does it works?</h5>
                             <p>Lorem ipsum dolor sit amet
                                 consectetur adipisicing elit. Est 
@@ -141,7 +144,7 @@
                                 laborum dolor? Dignissimos.
                             </p>
                         </div>
-                        <div>
+                        <div class="swiper-slide">
                             <h5>What does Cluster provide as a service?</h5>
                             <p>Lorem ipsum dolor sit amet
                                 consectetur adipisicing elit. Est 
@@ -149,7 +152,7 @@
                                 laborum dolor? Dignissimos.
                             </p>
                         </div>
-                        <div>
+                        <div class="swiper-slide">
                             <h5>What does Cluster provide as a service?</h5>
                             <p>Lorem ipsum dolor sit amet
                                 consectetur adipisicing elit. Est 
@@ -157,7 +160,7 @@
                                 laborum dolor? Dignissimos.
                             </p>
                         </div>
-                        <div>
+                        <div class="swiper-slide">
                             <h5>What does Cluster provide as a service?</h5>
                             <p>Lorem ipsum dolor sit amet
                                 consectetur adipisicing elit. Est 
@@ -168,13 +171,12 @@
                     </div>
                 </div>
                 <div class="slider-label">
-                    <span>1</span>
+                    <!-- <span>1</span>
                     <span>2</span>
                     <span>3</span>
-                    <span>4</span>
-                    <div>
-                        <span> <--</span>
-                        <span>--></span>
+                    <span>4</span> -->
+                    <div class="swiper-pagination" style="color: white;">
+                        
                     </div>
                 </div>
             </div>
@@ -190,7 +192,7 @@
                         </p>
                     </div>
                     <div class="learn">
-                        <a href="#" class="d-block text-center text-white">Learn more</a>
+                        <a href="https://link.medium.com/HsUx7mUVk5" class="d-block text-center text-white">Learn more</a>
                         <a href="#" class="d-block text-center my-btns">Early Access --></a>
                     </div>
                 </div>
@@ -202,10 +204,10 @@
                     </div>
                     <div class="f-mid conn">
                         <ul>
-                            <li><a href="#">About</a></li>
+                            <li><a href="https://link.medium.com/HsUx7mUVk5">About</a></li>
                             <li><a href="#">Contact Us</a></li>
                             <li><a href="#">Why Cluster</a></li>
-                            <li><a href="#">Blog</a></li>
+                            <li><a href="https://link.medium.com/HsUx7mUVk5">Blog</a></li>
                             <li><a href="#">FAQ</a></li>
                         </ul>
                     </div>
@@ -235,10 +237,32 @@
         </footer>
 		
     </main>
-    <!-- <script src="./script.js"></script> -->
+
+  <!-- Initialize Swiper -->
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script src="./script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init()
+
+        var mySwiper = new Swiper ('.swiper-container', {
+            // Optional parameters
+            direction: 'horizontal',
+            // loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                dynamicBullets: true,
+            },
+
+            // Navigation arrows
+            // navigation: {
+            //     nextEl: '.swiper-button-next',
+            //     prevEl: '.swiper-button-prev',
+            // },
+        })
     </script>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

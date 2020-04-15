@@ -516,12 +516,12 @@ left: -110px;
 .carousel-slider div  {
     display: flex;
     flex-direction: column;
-    width: 400px;
-    height: 200px;
+    width: 400px !important;
+    height: 200px !important;
     margin-right: 30px;
     color: black;
     background-color: white;
-    border-radius: 1.5em;
+    border-radius: 1.5em !important;
 }
 
 .carousel-slider div h5{
@@ -531,6 +531,13 @@ left: -110px;
 .carousel-slider div p{
     width: 300px;
     padding: 0px 15px;
+}
+.slider-label{
+    width: 30%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 footer > div{
     width: 75%;
@@ -623,4 +630,17 @@ address{
 }
 .footer_bottom span{
     display: block;
+}
+.swiper-container {
+    width: 75%;
+    height: 200px;
+}
+.swiper-slide{
+    width: 400px !important;
+    height: 300px;
+}
+.swiper-pagination span{
+    background-color: white;
+    width: 20px;
+    height: 20px;
 }
