@@ -30,3 +30,10 @@ window.addEventListener('load',()=>{
         sm.classList.add('media-trap')
     }
 })
+
+// var swiper = new Swiper('.swiper-container', {
+//     pagination: {
+//         el: '.swiper-pagination',
+//         dynamicBullets: true,
+//     },
+// });
