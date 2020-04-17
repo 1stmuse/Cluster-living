@@ -244,7 +244,7 @@ left: -110px;
 
 
 @media screen and (max-width:700px){
-    .sec1-div-left h1{
+    /* .sec1-div-left h1{
         width: 320px !important;
     }
     .sec1-div-right img{
@@ -257,7 +257,7 @@ left: -110px;
         display: flex !important;
         margin: 30px auto 30px auto !important;
         width: 100% !important;
-    }
+    } */
 
     .sec4 > div{
         width: 90% !important;
@@ -300,7 +300,31 @@ left: -110px;
 }
 
 @media screen and (max-width:850px){
-    
+    .sec_1{
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+        border: 1px solid blue;
+        position: relative !important;
+    }
+    .sec1-div-left{
+        width: 100%;
+    }
+    .sec1-div-left h1{
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .sec1-div-left button{
+        position: absolute;
+        bottom: -200%;
+        width: 50%;
+        left: 20%;
+    }
+    .sec1-div-right{
+        width: 100%;
+    }
+
     .md{
         display: flex !important;
         flex-direction: column !important;
@@ -309,19 +333,6 @@ left: -110px;
     }
     .md.box{
         width: 350px !important;
-    }
-    .sec1-div-left{
-        width: 50%;
-    }
-    .sec1-div-right{
-        width: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .sec1-div-right img{
-        width: 300px;
-        height: 250px;
     }
     .sec_2{
         display: flex;
