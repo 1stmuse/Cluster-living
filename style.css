@@ -13,7 +13,8 @@ p{
 }
 body{
     width: 100%;
-    /* border: 2px solid blue; */
+    border: 2px solid green;
+    position: relative;
 }
 
 /* HEADER */
@@ -77,6 +78,14 @@ body{
     width: 200px;
     background-color: #300245;
     margin-bottom: 20px;
+}
+.btn-hide{
+    display: none;
+    padding: 5px 25px;
+    border-radius: 12px;
+    color: #ffffff;
+    width: 200px;
+    background-color: #aba9ac;
 }
 .sec1-div-right{
     width: 60%;
@@ -244,20 +253,25 @@ left: -110px;
 
 
 @media screen and (max-width:700px){
-    /* .sec1-div-left h1{
-        width: 320px !important;
-    }
-    .sec1-div-right img{
-        width: 250px !important;
-        height: 200px !important;
-        margin-top: 100px !important;
-    }
-
-    #sec_2{
-        display: flex !important;
-        margin: 30px auto 30px auto !important;
+    .sec_1{
         width: 100% !important;
-    } */
+    }
+    .sec1-div-left p{
+        width: 90% !important;
+        text-align: center;
+        margin: 0px auto;
+        margin-top: 30px;
+        box-sizing: content-box !important;
+    }
+    .sec1-div-left h1{
+        width: 70%;
+        text-align: center;
+    }
+    .sec_2{
+        width: 100%;
+        margin-top: 10px;
+        border-radius: 0px;
+    }
 
     .sec4 > div{
         width: 90% !important;
@@ -303,9 +317,9 @@ left: -110px;
     .sec_1{
         display: flex;
         width: 80%;
+        /* height: 600px; */
         flex-direction: column;
         border: 1px solid blue;
-        position: relative !important;
     }
     .sec1-div-left{
         width: 100%;
@@ -315,11 +329,23 @@ left: -110px;
         margin: 0 auto;
         text-align: center;
     }
+    .sec_1 button{
+        margin: 40px auto;
+        margin-bottom: 40px;
+    }
     .sec1-div-left button{
-        position: absolute;
-        bottom: -200%;
+        display: none;
         width: 50%;
         left: 20%;
+        margin: 0px;
+    }
+    .sec1-div-right img{
+        height: 100%;
+        width: 100%;
+    }
+    .btn-hide{
+        display: block !important;
+        margin-top: 30px;
     }
     .sec1-div-right{
         width: 100%;
@@ -590,8 +616,8 @@ footer > div{
 .footer_mid{
     display: grid;
     grid-template-areas: 'log cont ten socail';
-    margin-top: 10%;
-    margin-bottom: 70px;
+    /* margin-top: 5%; */
+    margin-bottom: 30px;
 }
 .f-mid{
     width: 150px;
