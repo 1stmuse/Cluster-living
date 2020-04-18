@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -28,7 +29,7 @@
               <a class="nav-item nav-link my-btn pl-0" href="#">Contact Us</a>
               <a class="nav-item nav-link my-btn pr-0" href="https://link.medium.com/HsUx7mUVk5">Blog</a>
               <a class="nav-item nav-link my-btn pl-0 pr-0" href="#">FAQs</a>
-              <a class="nav-item nav-link my-btns ml-md-auto ml-lg-auto mr-4 " href="#" tabindex="-1" aria-disabled="true">Early Access --></a>
+              <a class="nav-item nav-link my-btns ml-md-auto ml-lg-auto mr-4 " href="#" tabindex="-1" aria-disabled="true" onclick="showForm()">Early Access --></a>
             </div>
           </div>
         </nav>
@@ -182,6 +183,17 @@
                 </div>
             </div>
         </section>
+        <div class="type-div" id="show">
+            <div class="relative-form">
+                <p id="close-form" onclick="hideForm()"><i class="fa fa-times fa-3x" aria-hidden="true"></i></p>
+                <div class="typeform-widget typy-form" data-url="https://clusterliving.typeform.com/to/ZDYsbA">
+                </div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, 
+                id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; 
+                q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color:
+                 #999;opacity: 0.5; padding-top: 5px;"><a href="https://admin.typeform.com/signup?utm_campaign=ZDYsbA&utm_source=typeform.com-01E5B77GHKCBQA8V0Y773KPV9W-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" 
+                 style="color: #999; border-radius: 20px;" target="_blank"></a> </div>
+            </div>
+        </div>
         <hr>
         <footer>
             <div>
@@ -194,7 +206,7 @@
                     </div>
                     <div class="learn">
                         <a href="https://link.medium.com/HsUx7mUVk5" class="d-block text-center text-white">Learn more</a>
-                        <a href="#" class="d-block text-center my-btns">Early Access --></a>
+                        <a href="#" class="d-block text-center my-btns" id="early" onclick="showForm()">Early Access --></a>
                     </div>
                 </div>
                 <div class="footer_mid">
@@ -221,9 +233,9 @@
                     <div class="f-mid soc">
                         <p>Social Media</p>
                         <div class="icons">
-                            <i>FB</i>
-                            <i>TW</i>
-                            <i>IG</i>
+                            <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+                            <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                            <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
                         </div>
                     </div>
                 </div>
