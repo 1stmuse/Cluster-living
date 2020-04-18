@@ -23,6 +23,7 @@ html{
 .relative-form #close-form{
     position: absolute;
     top: 3%;
+    color: white;
     right: 4%;
     width: 40px;
     z-index: 2;
