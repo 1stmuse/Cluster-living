@@ -13,15 +13,17 @@ html{
     left: 0;
     bottom: 0;
     width: 100%;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.7);
 }
 .relative-form{
-    width: 50%;
+    width: 80%;
     position: relative;
 }
 .relative-form #close-form{
     position: absolute;
     top: 3%;
+    color: white;
     right: 4%;
     width: 40px;
     z-index: 2;
