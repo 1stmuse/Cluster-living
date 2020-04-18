@@ -31,9 +31,13 @@ window.addEventListener('load',()=>{
     }
 })
 
-// var swiper = new Swiper('.swiper-container', {
-//     pagination: {
-//         el: '.swiper-pagination',
-//         dynamicBullets: true,
-//     },
-// });
+function showForm(){
+    const form = document.querySelector('.type-div')
+    form.classList.remove('type-div')
+    form.classList.add('showForm')
+}
+function hideForm(){
+    const form = document.querySelector('#show')
+    form.classList.remove('showform')
+    form.classList.add('type-div')
+}
