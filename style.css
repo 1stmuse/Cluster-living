@@ -413,11 +413,11 @@ left: -110px;
     }
     .f-mid{
         /* width: 150px !important; */
-        text-align: center !important;
+        /* text-align: center !important; */
     }
     .log{
         /* grid-area: log; */
-        margin-left: 20%;
+        /* margin-left: 20%; */
     }
     .conn{
         /* grid-area: cont; */
@@ -426,7 +426,7 @@ left: -110px;
     .ten{
         /* grid-area: ten; */
         /* width: 150px !important; */
-        margin-left: 20%;
+        /* margin-left: 20%; */
     }
     .soc{
         /* grid-area: socail; */
@@ -639,7 +639,7 @@ footer > div{
 }
 .f-mid{
     width: 150px;
-    text-align: center;
+    /* text-align: center; */
 }
 .f-mid img{
     background: white;
