@@ -290,6 +290,10 @@ left: -110px;
     .sec2-div-left{
         width: 100% !important;
     }
+    .box{
+        width: 70%;
+        margin: 10px auto;
+    }
 
     .sec4 > div{
         width: 90% !important;
@@ -402,30 +406,30 @@ left: -110px;
         border: 1px solid white;
     }
     .footer_mid{
-        display: grid !important;
-        grid-template-areas: 'log cont '
-                            'ten socail' !important;
+        display: flex !important;
+        /* grid-template-areas: 'log cont '
+                            'ten socail' !important; */
         margin-top: 10%;
     }
     .f-mid{
-        width: 150px !important;
+        /* width: 150px !important; */
         text-align: center !important;
     }
     .log{
-        grid-area: log;
+        /* grid-area: log; */
         margin-left: 20%;
     }
     .conn{
-        grid-area: cont;
-        width: 150px !important;
+        /* grid-area: cont; */
+        /* width: 150px !important; */
     }
     .ten{
-        grid-area: ten;
-        width: 150px !important;
+        /* grid-area: ten; */
+        /* width: 150px !important; */
         margin-left: 20%;
     }
     .soc{
-        grid-area: socail;
+        /* grid-area: socail; */
     }
     .conn ul li a, .ten ul li a{
         color: white !important;
@@ -446,8 +450,7 @@ left: -110px;
         padding: 0px !important;
         border-radius: 10px !important;
         box-shadow: 5px 5px 20px grey;
-        padding: 50px 9px 30px 30px !important;
-        height: 350px !important;
+        padding: 50px 9px 50px 30px !important;
     }
     .box_inner img{
         display: none;
@@ -457,7 +460,7 @@ left: -110px;
         padding: 0px !important;
     }
     .content h3{
-        margin-top: 50px;
+        margin-top: 30px;
     }
     .content p{
         margin-bottom:40px !important;
@@ -626,8 +629,11 @@ footer > div{
 }
 
 .footer_mid{
-    display: grid;
-    grid-template-areas: 'log cont ten socail';
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 0 1 auto;
+    /* grid-template-areas: 'log cont ten socail'; */
     /* margin-top: 5%; */
     margin-bottom: 30px;
 }
@@ -639,7 +645,7 @@ footer > div{
     background: white;
     border: none;
 }
-.log{
+/* .log{
     grid-area: log;
 }
 .conn{
@@ -650,7 +656,7 @@ footer > div{
 }
 .soc{
     grid-area: socail;
-}
+} */
 .soc .icons{
     display: flex;
     justify-content: space-between;
@@ -668,6 +674,7 @@ footer > div{
 }
 .conn ul li a, .ten ul li a{
     color: black;
+    /* font-size: 0.6rem; */
 }
 address{
     margin-top: 0px;
