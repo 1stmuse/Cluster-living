@@ -1,6 +1,3 @@
-html{
-    overflow-x: hidden;
-}
 .type-div{
     display: none !important;
 }
@@ -34,7 +31,6 @@ html{
     height: 400px;
     margin: 0 auto;
 }
-
 :root{
     font-family: 'Poppings', sans-serif;
     line-height: 160%;
@@ -46,17 +42,15 @@ p{
 }
 body{
     width: 100%;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     position: relative;
 }
-
 /* HEADER */
 .header{
     display: flex;
     width: 90%;
     margin: 0 auto;
 }
-
 .my-btn{
     background-color: #ffffff;
     text-decoration: none;
@@ -64,24 +58,20 @@ body{
     color: #2a043b !important;
     font-weight: bold;
 }
-
 .my-btns{
     padding: 8px 30px;
     width: 200px;
     font-weight: bold;
     color: #300245 !important;
-    /* text-align: center !important; */
     text-decoration: none !important;
     background-color: #ffffff !important;
     border-radius: 10px;
     box-shadow: 0px 3.7516px 3.7516px rgba(75, 93, 104, 0.1);
 }
-
 .logo_div img{
     width: 100px;
     height: 100px;
 }
-
 /* SECTION 1 */
 .sec_1{
     display: flex;
@@ -130,7 +120,6 @@ body{
     width: 100%;
     height: 300px;
 }
-
 /* SECTION 2 */
 .sec_2{
     display: flex;
@@ -169,8 +158,6 @@ body{
     margin: 0px;
     font-size: 0.9em;
 }
-
-
 /* center */
 .why-cluster{
     text-align: center;
@@ -185,7 +172,6 @@ body{
     width: 50%;
     margin: 0 auto;
 }
-
 /* SECTION 3 */
 .sec3 {
     height: fit-content;
@@ -230,8 +216,11 @@ body{
 }
 .sec3 .weirdShape .content {
     width: 250px;
-    height: inherit;
+    height: 280px;
     padding-right: 40px;
+}
+.sec3 .weirdShape .content p{
+    height: 144px;
 }
 .sec3 .cont .box .illustration {
     position: absolute;
@@ -262,8 +251,6 @@ left: -110px;
     top: 16px;
     left: 20px;
 }
-
-
 @media screen and (max-width:700px){
     .sec_1{
         width: 100% !important;
@@ -286,6 +273,7 @@ left: -110px;
         width: 100%;
         margin-top: 10px;
         border-radius: 0px;
+        padding: 0px;
     }
     .sec2-div-left{
         width: 100% !important;
@@ -294,7 +282,6 @@ left: -110px;
         width: 70%;
         margin: 10px auto;
     }
-
     .sec4 > div{
         width: 90% !important;
     }
@@ -317,6 +304,9 @@ left: -110px;
     footer >div{
         width: 100% !important;
     }
+    .footer_mid{
+        width: 75% !important;
+    }
     .waiting{
         width: 80% !important;
         margin: 20px auto !important;
@@ -327,21 +317,18 @@ left: -110px;
         flex-direction: row !important;
         width: 100% !important;
         margin: 0 auto !important;
+        padding: 0px !important;
     }
      .learn a:last-child{
          margin-left: 1em !important;
      }
-
-    
 }
-
 @media screen and (max-width:850px){
     .sec_1{
         display: flex;
         width: 80%;
-        /* height: 600px; */
         flex-direction: column;
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
     }
     .sec1-div-left{
         width: 100%;
@@ -372,7 +359,6 @@ left: -110px;
     .sec1-div-right{
         width: 100%;
     }
-
     .md{
         display: flex !important;
         flex-direction: column !important;
@@ -407,39 +393,17 @@ left: -110px;
     }
     .footer_mid{
         display: flex !important;
-        /* grid-template-areas: 'log cont '
-                            'ten socail' !important; */
         margin-top: 10%;
-    }
-    .f-mid{
-        /* width: 150px !important; */
-        text-align: center !important;
-    }
-    .log{
-        /* grid-area: log; */
-        margin-left: 20%;
-    }
-    .conn{
-        /* grid-area: cont; */
-        /* width: 150px !important; */
-    }
-    .ten{
-        /* grid-area: ten; */
-        /* width: 150px !important; */
-        margin-left: 20%;
-    }
-    .soc{
-        /* grid-area: socail; */
+        margin-left: 10%;
+        width: 100% !important;
     }
     .conn ul li a, .ten ul li a{
         color: white !important;
     }
     .reg{
         display: block !important;
-    }
-    
+    } 
 }
-
 @media screen and (max-width:950px){
     .media-trap{
         display: flex !important;
@@ -468,7 +432,6 @@ left: -110px;
         line-height: 100%;
         height: auto !important;
     }
-
     .sec3 .cont .box .illustration{
         width: 300px !important;
     }
@@ -491,7 +454,6 @@ left: -110px;
         width: 350px;
     }
 }
-
 @media screen and (max-width:1200px){
     .media-trap{
         display: flex;
@@ -517,20 +479,15 @@ left: -110px;
         width: 350px;
     }
     .sec3 .cont .box .illustration.plans {
-        /* width: 300px; */
         order: 2;
         margin-left: 50px;
     }
     .sec3 .cont .box .illustration.services{
         order: 2;
         margin-left: 50px;
-        /* width: 300px; */
     }
 }
-
- 
 /* SECTION 4 */
-
 .sec4{
     margin-top: 10%;
     margin-bottom: 5%;
@@ -545,26 +502,22 @@ left: -110px;
     padding: 10px 15px;
     border-radius: 3em;
 }
-
 .sec4 > div h3{
     text-align: center;
     color: #ffffff;
     margin: 40px 20px;
     font-size: 1.2em;
 }
-
 .carousel-container{
     width: 75%;
     margin-left: 30%;
 }
-
 .carousel-slider{
     display: flex;
     width: 100%;
     justify-content: space-between;
     height: 200px;
 }
-
 .carousel-slider div  {
     display: flex;
     flex-direction: column;
@@ -575,11 +528,9 @@ left: -110px;
     background-color: white;
     border-radius: 1.5em !important;
 }
-
 .carousel-slider div h5{
     padding: 0px 15px;
 }
-
 .carousel-slider div p{
     width: 300px;
     padding: 0px 15px;
@@ -595,18 +546,15 @@ footer > div{
     width: 75%;
     margin: 30px auto 0px auto;
 }
-
 .footer_top{
     display: flex;
     justify-content: space-between;
 }
-
 .waiting {
     width: 40%;
     margin-right: auto;
     padding: 0px 15px;
 }
-
 .learn{
     width: 50%;
     display: flex;
@@ -627,36 +575,20 @@ footer > div{
 .learn a:last-child{
     margin-left: 2em;
 }
-
 .footer_mid{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     flex: 0 1 auto;
-    /* grid-template-areas: 'log cont ten socail'; */
-    /* margin-top: 5%; */
     margin-bottom: 30px;
 }
 .f-mid{
     width: 150px;
-    text-align: center;
 }
 .f-mid img{
     background: white;
     border: none;
 }
-/* .log{
-    grid-area: log;
-}
-.conn{
-    grid-area: cont;
-}
-.ten{
-    grid-area: ten;
-}
-.soc{
-    grid-area: socail;
-} */
 .soc .icons{
     display: flex;
     justify-content: space-between;
@@ -674,19 +606,17 @@ footer > div{
 }
 .conn ul li a, .ten ul li a{
     color: black;
-    /* font-size: 0.6rem; */
+    text-decoration: none;
 }
 address{
     margin-top: 0px;
 }
-
 .conn, .soc, .ten{
     margin-top: 50px;
 }
 .address{
     display: block;
 }
-
 .footer_bottom{
     display: flex;
     justify-content: space-between;
