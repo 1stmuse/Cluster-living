@@ -42,7 +42,7 @@ p{
 }
 body{
     width: 100%;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     position: relative;
 }
 /* HEADER */
@@ -328,7 +328,7 @@ left: -110px;
         display: flex;
         width: 80%;
         flex-direction: column;
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
     }
     .sec1-div-left{
         width: 100%;
