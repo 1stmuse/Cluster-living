@@ -31,3 +31,13 @@
     background-color: #fff100;
     margin-bottom: 20px;
 }
+
+@media screen and (max-width:700px){
+    .sec_1_owner{
+        width: 100%;
+    }
+
+    .img img{
+        width: 100%;
+    }
+}
