@@ -1,3 +1,7 @@
+.sec_1_owner{
+    width: 80%;
+    margin: 20px auto;
+}
 .owner-top-div{
     display: flex;
     justify-content: center;
