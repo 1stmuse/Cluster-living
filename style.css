@@ -265,6 +265,16 @@ left: -110px;
     left: 20px;
 }
 @media screen and (max-width:768px){
+    .carousel-container{
+        margin-left: 0px !important;
+        width: 100% !important;
+    }
+    .sec4{
+        width: 100% !important;
+    }
+    .sec4 > div{
+        width: 100% !important;
+    } 
     .my-nav{
         padding-left: 0px;
     }
