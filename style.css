@@ -403,7 +403,7 @@ left: -110px;
         display: flex !important;
         margin-top: 10%;
         margin-left: 10%;
-        width: 100% !important;
+        width: 80% !important;
     }
     .conn ul li a, .ten ul li a{
         color: white !important;
