@@ -57,15 +57,24 @@ body{
     color: #2a043b !important;
     font-weight: bold;
 }
+.btn-l{
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #2a043b !important;
+    font-weight: bold;
+}
 .my-btns{
     padding: 8px 30px;
     width: 200px;
     font-weight: bold;
     color: #300245 !important;
     text-decoration: none !important;
-    background-color: #ffffff !important;
-    border-radius: 10px;
+    /* background-color: #ffffff !important; */
+    /* border-radius: 10px; */
+    /* box-shadow: 0px 3.7516px 3.7516px rgba(75, 93, 104, 0.1); */
+    background: #FFFFFF;
     box-shadow: 0px 3.7516px 3.7516px rgba(75, 93, 104, 0.1);
+    border-radius: 37.516px;
 }
 .logo_div img{
     width: 100px;
@@ -96,9 +105,10 @@ body{
     margin-top: 50px;
     padding: 5px 25px;
     border-radius: 12px;
-    color: #ffffff;
+    border: none;
     width: 200px;
-    background-color: #300245;
+    box-shadow: none;
+    background-color: #fff100;
     margin-bottom: 20px;
 }
 .btn-hide{
@@ -572,6 +582,7 @@ footer > div{
 }
 .learn a:last-child{
     margin-left: 2em;
+    background-color: #FFFFFF;
 }
 .footer_mid{
     display: flex;
