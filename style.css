@@ -50,6 +50,9 @@ body{
     width: 90%;
     margin: 0 auto;
 }
+.my-nav{
+    padding-left: 50px;
+}
 .my-btn{
     background-color: #ffffff;
     text-decoration: none;
@@ -62,6 +65,7 @@ body{
     text-decoration: none;
     color: #2a043b !important;
     font-weight: bold;
+    width: 150px;
 }
 .my-btns{
     padding: 8px 30px;
@@ -260,7 +264,14 @@ left: -110px;
     top: 16px;
     left: 20px;
 }
-@media screen and (max-width:700px){
+@media screen and (max-width:768px){
+    .my-nav{
+        padding-left: 0px;
+    }
+    .my-btns{
+        text-align: start !important;
+        box-shadow: none !important;
+    }
     .sec_1{
         width: 100% !important;
     }
