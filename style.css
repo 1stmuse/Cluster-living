@@ -491,7 +491,7 @@ left: -110px;
     }
     .hide-font{
         display: block;
-        color: gray;
+        color: #2a043b;
     }
 }
 @media screen and (max-width:1200px){
