@@ -451,6 +451,8 @@ left: -110px;
         box-shadow: 5px 5px 20px grey;
         padding: 50px 9px 50px 30px !important;
         height: 500px !important;
+        background-color: #300245;
+        color: white;
     }
     .box_inner img{
         display: none;
@@ -491,7 +493,7 @@ left: -110px;
     }
     .hide-font{
         display: block;
-        color: #2a043b;
+        color: #ffffff;
     }
 }
 @media screen and (max-width:1200px){
